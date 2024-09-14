@@ -14,4 +14,60 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PROD_COD" id="6FCAF00D-63DA-38B5-A038-50171523705B">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 21:01:09 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_VALOR" id="EBA739C1-FD65-5002-32EE-C47C0C5DC8DE">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 21:01:42 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_NOME" id="FCB4DEE5-D53C-4F97-BB45-4136B1FFFB63">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 21:02:05 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="71EC27AC-D452-B3B7-F9DE-2502CB5E4A70" name="PRODUTOS PK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 21:01:59 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6FCAF00D-63DA-38B5-A038-50171523705B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -14,4 +14,73 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PES_NOME" id="E72A9B29-D97C-6441-9C7B-B9F556CF9A6A">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 21:08:32 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PES_CPF" id="AB60ED64-9048-43B8-D71D-148A03F400EC">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 21:08:51 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PES_IDADE" id="0D6046D9-692C-C05A-A664-9B91769CC091">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 21:09:50 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CID_COD" id="D03FDC1F-CBE8-E27D-F777-4A345C809193">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 23:04:04 UTC</createdTime>
+<generatorID>D5531672-1705-C84E-5195-21568168A415</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<referedAttribute>E718B2CC-000C-9957-C61D-C70B79DDB658</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="624DD911-490D-8EAD-60FC-CB5E28BFBDB3" name="PESSOA PK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 21:08:30 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AB60ED64-9048-43B8-D71D-148A03F400EC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

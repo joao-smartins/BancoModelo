@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41F1FA92-5C86-DEC1-337E-FAABB616B34E" name="QUARTO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA2EFB13-5501-9E68-AD25-6941B1C911C9" name="DDD">
 <createdBy>jovi_</createdBy>
-<createdTime>2024-09-14 17:58:19 UTC</createdTime>
+<createdTime>2024-09-14 20:05:39 UTC</createdTime>
 <ownerDesignName>HOTEL_BD</ownerDesignName>
 <engineerTo>
 <item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="QUA_COD" id="A0BE7DD4-86CA-EE23-4CEF-439DE486ED87">
+<Attribute name="DDD_COD" id="FD3165F8-4BBB-F51E-FF99-480896D622CC">
 <createdBy>jovi_</createdBy>
-<createdTime>2024-09-14 20:50:39 UTC</createdTime>
+<createdTime>2024-09-14 20:05:56 UTC</createdTime>
 <ownerDesignName>HOTEL_BD</ownerDesignName>
 <engineerTo>
 <item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
@@ -28,47 +28,32 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="QUA_NUM" id="6E7B4047-37F1-35DA-08EA-AAC5A93CD648">
+<Attribute name="DDD_VALOR" id="9CDBBA79-723E-D3BA-17B0-F0882F76AD6B">
 <createdBy>jovi_</createdBy>
-<createdTime>2024-09-14 21:46:32 UTC</createdTime>
+<createdTime>2024-09-14 20:49:46 UTC</createdTime>
 <ownerDesignName>HOTEL_BD</ownerDesignName>
 <engineerTo>
 <item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CAT_COD" id="9DBEC1CB-7A4B-714F-F7B0-6B9486DF7F24">
-<createdBy>jovi_</createdBy>
-<createdTime>2024-09-14 22:18:55 UTC</createdTime>
-<generatorID>CCAA3C40-AB08-CF47-043D-41F468DD7DED</generatorID>
-<ownerDesignName>HOTEL_BD</ownerDesignName>
-<engineerTo>
-<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
-</engineerTo>
-<referedAttribute>26BBAD11-E10E-52BC-BB7E-B25CCBEA05C4</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2903EAD7-0F5B-B093-C781-CBF69B0D62B3" name="QUARTO PK">
+<identifier id="A99D5F13-424F-073F-B6FD-2A7B3427AA69" name="DDD PK">
 <createdBy>jovi_</createdBy>
-<createdTime>2024-09-14 20:50:51 UTC</createdTime>
+<createdTime>2024-09-14 20:49:44 UTC</createdTime>
 <ownerDesignName>HOTEL_BD</ownerDesignName>
 <engineerTo>
 <item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>A0BE7DD4-86CA-EE23-4CEF-439DE486ED87</attributeRef>
+<attributeRef>FD3165F8-4BBB-F51E-FF99-480896D622CC</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

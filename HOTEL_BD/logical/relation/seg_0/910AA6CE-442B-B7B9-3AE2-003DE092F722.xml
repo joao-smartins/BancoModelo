@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_COMAN_PROD" directorySegmentName="seg_0" id="910AA6CE-442B-B7B9-3AE2-003DE092F722">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 21:29:50 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<sourcePk>18EB579A-75F8-CF03-DF2A-5C2791E3981F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>EDC96FA7-2FDE-D108-49E3-6A8D874BF0B3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8AE6505C-95F4-02BD-5304-F2B5213D8697</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_HOS_LIG" directorySegmentName="seg_0" id="88E62BB1-DB47-6505-FF05-A6DC71A3800B">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 23:00:51 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<sourcePk>DC94AEA0-FB29-72AE-6EE6-9FDDCC7F8052</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>58BC57B9-D9AA-FE5D-C99D-95410F286BB0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>14D618A3-E8A6-52C4-793B-31E681A5C763</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

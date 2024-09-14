@@ -14,4 +14,103 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="LIG_COD" id="EBBA0D14-55C6-669C-CF20-5A4E0442683C">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 21:10:25 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LIG_DDD" id="0261FD40-5FEB-9341-EEC8-730CDC9AA058">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 21:10:56 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LIG_VALOR" id="5C24DA70-1D80-BA1C-D259-914852028711">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 21:12:26 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LIG_TEMP" id="CC30EF13-4D0A-EAE4-D968-8C1212C45420">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 21:13:55 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CID_COD" id="5360D922-7167-573F-A283-D1D4AF9B7BCA">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 22:10:27 UTC</createdTime>
+<generatorID>1FCFF778-9B00-BDEB-475B-95FB0F027C48</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<referedAttribute>E718B2CC-000C-9957-C61D-C70B79DDB658</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HOS_COD" id="690D50E1-6F4A-1D8F-793C-AAEDFBA19D57">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 23:00:51 UTC</createdTime>
+<generatorID>88E62BB1-DB47-6505-FF05-A6DC71A3800B</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<referedAttribute>3DD14BC9-69C2-D1FF-18EB-3BBC42CA2287</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="449B0355-7EEC-E02D-CD0D-D4CF9CE4D5EC" name="LIGAÇÕES PK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 21:10:51 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EBBA0D14-55C6-669C-CF20-5A4E0442683C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -40,6 +40,21 @@
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="DDD_COD" id="D2460DD3-DAB1-CCD6-67D4-C4E31AE77F80">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 20:57:32 UTC</createdTime>
+<generatorID>F664E91D-ACC4-BF1E-218D-0419941271BF</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<referedAttribute>FD3165F8-4BBB-F51E-FF99-480896D622CC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="6F33404C-BC1B-53B4-0CD4-36382774CE93" name="CIDADES PK">

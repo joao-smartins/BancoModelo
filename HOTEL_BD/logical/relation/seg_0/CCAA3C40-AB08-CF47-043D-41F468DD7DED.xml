@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_CAT_QUARTO" directorySegmentName="seg_0" id="CCAA3C40-AB08-CF47-043D-41F468DD7DED">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 22:18:55 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<sourcePk>A61AADDE-54EB-8509-B64E-8EC412C058CB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3A580E40-5F7A-22D4-6869-A600752C5B18</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>41F1FA92-5C86-DEC1-337E-FAABB616B34E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

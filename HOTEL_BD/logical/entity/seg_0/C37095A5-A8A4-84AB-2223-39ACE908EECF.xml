@@ -14,4 +14,88 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RES_COD" id="17E4E565-2698-EE6F-C745-F9CAA1B08692">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 21:15:29 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RES_DATA_INI" id="CB6F8EAF-7BE3-E137-B0D5-6387569C71FF">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 21:15:47 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RES_DATA_FIM" id="C33C2F05-0ACE-230F-8926-0F2C740668C9">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 21:15:58 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CAT_COD" id="C4E71221-8EC0-AD29-4339-25B7F8A3C4E2">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 22:19:25 UTC</createdTime>
+<generatorID>4E2D6B55-94E9-9BC4-DF56-C94083599EAD</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<referedAttribute>26BBAD11-E10E-52BC-BB7E-B25CCBEA05C4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PES_CPF" id="F12D60D8-D556-AC71-E3A9-62EF01D8ECB1">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 23:03:45 UTC</createdTime>
+<generatorID>3E296E7B-3A13-F420-7F1E-1CE9F4EAFFA2</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>AB60ED64-9048-43B8-D71D-148A03F400EC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BA691E0E-5389-E1F5-E1D9-7BD8F5EA66F8" name="RESERVAS PK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 21:15:46 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>17E4E565-2698-EE6F-C745-F9CAA1B08692</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
