@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="3D0E48BC-FD13-8A96-17A4-63AA63FE6A06">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 17:55:32 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

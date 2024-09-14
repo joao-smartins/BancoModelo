@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="1DB83F1C-BAB7-2D33-2473-61F249E54D7A">
+<createdBy>jovi_</createdBy>
+<modifiedBy>jovi_</modifiedBy>
+<createdTime>2024-09-14 17:57:44 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>2</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="14D618A3-E8A6-52C4-793B-31E681A5C763" otype="Entity" vid="44298C3F-F9CB-E440-8D8A-E488DF08D7B8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="502" y="30" width="126" height="92"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="1D76D273-9C26-3FEC-0D04-ED4FB351724E" otype="Note" vid="0A7FFEC6-AA3E-3E47-9B0F-CE0D6400216D">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="42" y="484" width="263" height="133"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-4144960</backgroundColor>
+<foregroundColor>-16777216</foregroundColor>
+<comment>quarto para uma determinada data e hora em nome de uma pessoa,
+e esta pessoa não necessita estar cadastrada no sistema. Para que a reserva seja feita é necessário
+somente nome e telefone</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="2748CE0D-D23C-A4B4-DCEE-52AC8BBF825D" otype="Entity" vid="2B049123-FB4C-7A44-A078-830C18D6BE10">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="726" y="433" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="2FD7C4A9-E37B-4D2F-6066-213CF08D084A" otype="Entity" vid="B477C77C-9019-333F-81EF-4E088A13B2EA">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="104" y="295" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="3A580E40-5F7A-22D4-6869-A600752C5B18" otype="Entity" vid="95C6CB0B-6F1B-C545-0F92-F584BB892185">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="638" y="160" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="41F1FA92-5C86-DEC1-337E-FAABB616B34E" otype="Entity" vid="A0386759-B833-26A3-C404-5AF00FF2F0BD">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="285" y="134" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="49F19FC6-B0C0-AEA3-CEA1-E3BDEEB37E06" otype="Entity" vid="EDC9A711-0EBA-BE8A-9424-F754BBE6B2CA">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="29" y="53" width="161" height="161"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="5C87CF83-BC46-9932-F1C7-6C4192864AF8" otype="Note" vid="BACD5BAE-6DEB-0315-5B29-2719B205EC3E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="481" y="439" width="167" height="82"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-4144960</backgroundColor>
+<foregroundColor>-16777216</foregroundColor>
+<comment>quantidade de adultos,
+crianças e de pagantes</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="687D50BB-B82E-10F9-0763-B63BAF9A01DC" otype="Note" vid="E8303548-428D-1BC5-7647-16A06D3A330A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="810" y="37" width="262" height="123"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-4144960</backgroundColor>
+<foregroundColor>-16777216</foregroundColor>
+<comment> (luxo duplo, luxo casal, standard triplo,
+standard duplo, super luxo, etc.
+ o valor da diária, a capacidade de pessoas para o
+quarto e o valor por pessoa adicional.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="6C12764A-BF25-8A30-9563-B690AE9E06B8" otype="Note" vid="6C8F855E-1E7C-3030-957F-EF71F9C2AA28">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1262" y="470" width="163" height="63"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-4144960</backgroundColor>
+<foregroundColor>-16777216</foregroundColor>
+<comment>(café, almoço, lanche, refrigerante, etc.),</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="8AE6505C-95F4-02BD-5304-F2B5213D8697" otype="Entity" vid="E20BD646-1C38-E05F-BBA9-59851D868356">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1034" y="472" width="198" height="125"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="9352C6DD-AD2B-0119-E5F4-8212F6DF5C5D" otype="Entity" vid="DD1E8F98-69A1-235F-A4C8-B3093237FBE1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="936" y="285" width="111" height="98"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="C37095A5-A8A4-84AB-2223-39ACE908EECF" otype="Entity" vid="EED994EF-D993-232C-DAEE-7523CDEFC203">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="329" y="412" width="91" height="26"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="CC93CDC7-C2BD-C47C-E83D-95FED12EFA3E" otype="Note" vid="9CA40887-57E3-1742-46EE-D9494B494911">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1061" y="282" width="200" height="68"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-4144960</backgroundColor>
+<foregroundColor>-16777216</foregroundColor>
+<comment> (lavagem de camisa, lavagem de calça, translatos, etc.) </comment>
+</OView>
+</objectViews>
+</Diagram>

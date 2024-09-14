@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41F1FA92-5C86-DEC1-337E-FAABB616B34E" name="QUARTO">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 17:58:19 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

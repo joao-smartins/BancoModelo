@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="49F19FC6-B0C0-AEA3-CEA1-E3BDEEB37E06" name="CIDADES">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 18:08:24 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CID_COD" id="E718B2CC-000C-9957-C61D-C70B79DDB658">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 19:58:20 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CID_NOME" id="06FE7DCD-CC35-ACBA-CD85-68502D43A7B4">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 19:58:32 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F33404C-BC1B-53B4-0CD4-36382774CE93" name="CIDADES PK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 19:58:30 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<engineerTo>
+<item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E718B2CC-000C-9957-C61D-C70B79DDB658</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
