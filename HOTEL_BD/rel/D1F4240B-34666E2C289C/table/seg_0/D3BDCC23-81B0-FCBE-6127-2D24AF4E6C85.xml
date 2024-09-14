@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3BDCC23-81B0-FCBE-6127-2D24AF4E6C85" name="SERVIÇOS">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 23:11:34 UTC</createdTime>
+<generatorID>9352C6DD-AD2B-0119-E5F4-8212F6DF5C5D</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SERV_COD" id="58802EF8-AC13-E61F-E942-2AA56ADCC642">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 23:11:34 UTC</createdTime>
+<generatorID>8AF1A04F-182E-F461-76BA-21E8394A3542</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERV_NOME" id="336FD71D-4A36-B89A-8007-00D1730BB0DA">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 23:11:34 UTC</createdTime>
+<generatorID>34372F52-0EA0-FD84-03B6-ACA3D1696AE1</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERV_VALOR" id="F2C5D71E-BCD1-583F-621C-37879774A722">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 23:11:34 UTC</createdTime>
+<generatorID>AD6181EA-4CEA-677C-553E-A18DC2439227</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22D97B8B-8B0D-8442-06D2-B272523A94A4" name="SERVIÇOS_PK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 23:11:34 UTC</createdTime>
+<generatorID>A17B4718-DE0E-731E-C5E1-3115B126499D</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58802EF8-AC13-E61F-E942-2AA56ADCC642"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4F2E865-1643-C6DE-3FA2-DA77D8AFB60F" name="R_COMAN_SER">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 23:11:34 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COMANDA_COMAN_COD" id="9750F754-1C7E-7337-CAB7-5164404CCE8A">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 23:11:34 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52C88E77-C66B-3A3B-08B5-A31263737C2E" referredColumn="76C090EF-452D-287A-6438-FA747525B96F"/>
+</associations>
+</Column>
+<Column name="SERVIÇOS_SERV_COD" id="2A80D110-F36E-A8FB-CC02-81D23EA90DDD">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 23:11:34 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA972F5D-7753-7344-6FDB-3FF1723EC2E0" referredColumn="58802EF8-AC13-E61F-E942-2AA56ADCC642"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95202058-605C-EC44-04BE-36AA1C7155BB" name="R_COMAN_SER_PK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 23:11:34 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9750F754-1C7E-7337-CAB7-5164404CCE8A"/>
+<colUsage columnID="2A80D110-F36E-A8FB-CC02-81D23EA90DDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C72C7E12-E64D-379A-824C-432F9B3EE3B4" name="R_COMAN_SER_COMANDA_FK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 23:11:34 UTC</createdTime>
+<generatorID>FDF25D28-70A7-378A-C603-36750A138FB0</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9750F754-1C7E-7337-CAB7-5164404CCE8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A31DBEA-764B-425F-5191-A9246C73F618" name="R_COMAN_SER_SERVIÇOS_FK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 23:11:34 UTC</createdTime>
+<generatorID>FDF25D28-70A7-378A-C603-36750A138FB0</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A80D110-F36E-A8FB-CC02-81D23EA90DDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

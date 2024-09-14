@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="35F31447-0DA3-EAD4-A813-517C00D5BC7D" containerWithKeyObject="303AA9F3-5DE6-3C50-2E4E-D3E11931F2F9" localFKIndex="831CFE09-59CE-EA9F-158C-E6D18B2D270C" name="LIGAÇÕES_HOSPEDAGEM_FK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-14 23:11:34 UTC</createdTime>
+<generatorID>88E62BB1-DB47-6505-FF05-A6DC71A3800B</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<referredTableLongName>HOSPEDAGEM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B5E00C79-F1AA-6C8E-384C-D26747B72F12</referredTableID>
+<keyObject>358E802C-94AC-3011-43CE-8ADE4CA6B1BB</keyObject>
+<referredKeyID>358E802C-94AC-3011-43CE-8ADE4CA6B1BB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>HOS_COD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
