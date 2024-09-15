@@ -7,7 +7,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COMANDA_COMAN_COD" id="9750F754-1C7E-7337-CAB7-5164404CCE8A">
+<Column name="COMAN_COD" id="9750F754-1C7E-7337-CAB7-5164404CCE8A">
 <createdBy>jovi_</createdBy>
 <createdTime>2024-09-14 23:11:34 UTC</createdTime>
 <ownerDesignName>HOTEL_BD</ownerDesignName>
@@ -22,7 +22,7 @@
 <colAssociation fkAssociation="52C88E77-C66B-3A3B-08B5-A31263737C2E" referredColumn="76C090EF-452D-287A-6438-FA747525B96F"/>
 </associations>
 </Column>
-<Column name="SERVIÇOS_SERV_COD" id="2A80D110-F36E-A8FB-CC02-81D23EA90DDD">
+<Column name="SERV_COD" id="2A80D110-F36E-A8FB-CC02-81D23EA90DDD">
 <createdBy>jovi_</createdBy>
 <createdTime>2024-09-14 23:11:34 UTC</createdTime>
 <ownerDesignName>HOTEL_BD</ownerDesignName>

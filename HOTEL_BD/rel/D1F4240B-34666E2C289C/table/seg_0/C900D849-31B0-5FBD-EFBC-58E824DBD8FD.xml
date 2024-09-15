@@ -33,7 +33,7 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DDD_DDD_COD" id="345EB33D-CF75-49A5-9FA9-BFCF74AEE75C">
+<Column name="DDD_COD" id="345EB33D-CF75-49A5-9FA9-BFCF74AEE75C">
 <createdBy>jovi_</createdBy>
 <createdTime>2024-09-14 23:11:34 UTC</createdTime>
 <generatorID>D2460DD3-DAB1-CCD6-67D4-C4E31AE77F80</generatorID>

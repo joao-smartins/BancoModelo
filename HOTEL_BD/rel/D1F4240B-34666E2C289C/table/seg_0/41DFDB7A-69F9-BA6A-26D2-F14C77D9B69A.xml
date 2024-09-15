@@ -33,7 +33,7 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CATEGORIA_CAT_COD" id="F7AB2A03-4A5C-B32B-6188-5D2DC413CD0B">
+<Column name="CAT_COD" id="F7AB2A03-4A5C-B32B-6188-5D2DC413CD0B">
 <createdBy>jovi_</createdBy>
 <createdTime>2024-09-14 23:11:34 UTC</createdTime>
 <generatorID>9DBEC1CB-7A4B-714F-F7B0-6B9486DF7F24</generatorID>
