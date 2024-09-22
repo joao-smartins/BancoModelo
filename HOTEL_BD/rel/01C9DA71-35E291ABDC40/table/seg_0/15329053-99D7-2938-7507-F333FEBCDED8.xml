@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15329053-99D7-2938-7507-F333FEBCDED8" name="CIDADES">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>49F19FC6-B0C0-AEA3-CEA1-E3BDEEB37E06</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CID_COD" id="40278509-6908-493F-9D6D-70D3A0207336">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>E718B2CC-000C-9957-C61D-C70B79DDB658</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CID_NOME" id="AB2C6649-443D-25E4-33FA-899BE635EF29">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>06FE7DCD-CC35-ACBA-CD85-68502D43A7B4</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DDD_DDD_COD" id="61DC955A-9440-4B68-9614-DB76ADE3613B">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>D2460DD3-DAB1-CCD6-67D4-C4E31AE77F80</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F24F46E-199E-5891-BF7D-73BC334D9406" referredColumn="490122D8-01A8-4749-78AF-A94F311E39D4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="814854F2-2549-B2B9-2244-E787D621CEBD" name="CIDADES_PK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>6F33404C-BC1B-53B4-0CD4-36382774CE93</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40278509-6908-493F-9D6D-70D3A0207336"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6C353C9-A5A4-DE39-8C04-2D6E601ED0AB" name="CIDADES_DDD_FK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>F664E91D-ACC4-BF1E-218D-0419941271BF</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61DC955A-9440-4B68-9614-DB76ADE3613B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="NN_CID_NOME" directorySegmentName="seg_0" id="70A9CA41-755D-A9F1-7860-24E3F155F82E">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 21:08:38 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<rule><![CDATA[CID_NOME NOT NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

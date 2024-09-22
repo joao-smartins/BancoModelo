@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AECE17B9-D30D-E49A-CC1A-4ABA8FC9D06D" containerWithKeyObject="3EDE8ED3-9BB0-DBE5-A0E6-A35AE941325F" localFKIndex="673D3A82-88DB-7BDE-8EC4-50349C0E6201" name="HOSPEDAGEM_PESSOA_FK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>32672A39-A7C2-73F9-2D7F-8BCE6253AC0A</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<referredTableLongName>PESSOA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3D3068B3-E2D1-A2C3-4107-D74EF74D0C69</referredTableID>
+<keyObject>9739B216-32D8-FA38-F704-CAE4405852EB</keyObject>
+<referredKeyID>9739B216-32D8-FA38-F704-CAE4405852EB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PES_CPF</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

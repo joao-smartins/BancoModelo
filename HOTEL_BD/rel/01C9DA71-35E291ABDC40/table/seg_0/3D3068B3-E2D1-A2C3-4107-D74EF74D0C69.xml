@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D3068B3-E2D1-A2C3-4107-D74EF74D0C69" name="PESSOA">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>2748CE0D-D23C-A4B4-DCEE-52AC8BBF825D</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PES_NOME" id="5812AFD9-F3B6-42FD-E20A-6357D38930B1">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>E72A9B29-D97C-6441-9C7B-B9F556CF9A6A</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PES_CPF" id="E6E8A0CD-A545-FE14-B43B-818EB25EEB1F">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>AB60ED64-9048-43B8-D71D-148A03F400EC</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PES_IDADE" id="E3668A34-0D76-8ADB-8A5F-7ECD3D819E3E">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>0D6046D9-692C-C05A-A664-9B91769CC091</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIDADES_CID_COD" id="9BF00D6E-6CFF-29AA-A380-C396E31F0CC0">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>D03FDC1F-CBE8-E27D-F777-4A345C809193</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C39F72DD-9133-44BE-6D02-62649755063F" referredColumn="40278509-6908-493F-9D6D-70D3A0207336"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9739B216-32D8-FA38-F704-CAE4405852EB" name="PESSOA_PK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>624DD911-490D-8EAD-60FC-CB5E28BFBDB3</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6E8A0CD-A545-FE14-B43B-818EB25EEB1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3E0BA2C-0A3B-2D36-6401-CDA5F102B07B" name="PESSOA_CIDADES_FK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>D5531672-1705-C84E-5195-21568168A415</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BF00D6E-6CFF-29AA-A380-C396E31F0CC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="NN_PES_NOME" directorySegmentName="seg_0" id="4B9C964E-59F8-AD5B-60FB-F45F21A88CE4">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 21:09:36 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<rule><![CDATA[PES_NOME NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="NN_PES_IDADE" directorySegmentName="seg_0" id="243A8B40-2A9D-593E-6452-AE28C8512497">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 21:10:02 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<rule><![CDATA[PES_IDADE NOT NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

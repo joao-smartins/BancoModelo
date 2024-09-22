@@ -1,0 +1,234 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EDE8ED3-9BB0-DBE5-A0E6-A35AE941325F" name="HOSPEDAGEM">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>58BC57B9-D9AA-FE5D-C99D-95410F286BB0</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HOS_COD" id="3D5202A1-7A88-EB73-E028-E81CE62EE259">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>3DD14BC9-69C2-D1FF-18EB-3BBC42CA2287</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOS_DATA_INI" id="AC14099C-2D55-D20F-56AB-14BFBDC5FDAA">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>3ECFB56F-9988-4594-FFD7-03CAE0CEA7EF</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOS_DATA_FIM" id="D96A344C-90B0-0904-AEE8-D7B3D355E372">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>E7FE4F15-9862-71F4-2EFD-49B0B35FE686</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOS_VALOR" id="5A8F0723-C8F5-2652-C57B-A77DBC9459BC">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>BFE99F6B-74C9-AB75-804D-B34853F917F8</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOS_PAG" id="89A7DD8D-4265-EB26-2F64-49D3203810DB">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>DB02548E-2E96-B29B-4411-39A85AB03B22</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOS_CRI" id="5A42ED09-8E5E-7B78-8A21-069E5EA4169A">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>CFCEF7C3-8DA1-5245-FA8F-BF5378B97577</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOS_ADU" id="F1256F58-7084-E67F-ADC0-CD4434EBA50A">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>CCD20CB6-A6F3-A138-47A2-1BD203C934A7</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESERVAS_RES_COD" id="C48930DC-F2D4-A1A8-12C5-6522D8607A42">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>1DDB5E8F-134D-3ACD-95CF-333E6597C0CC</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6456919B-47AC-E105-0414-D1BF779CB3A3" referredColumn="BC32EDA5-B88D-C533-DD5F-2B7F680DED74"/>
+</associations>
+</Column>
+<Column name="QUARTO_QUA_COD" id="17F4FB6C-6C82-39F3-2F61-D8BAA7155B20">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>1A623EFB-98D4-11AA-7976-C26FB9EB6172</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73DC5C19-8D69-31D4-E60D-75015E53E707" referredColumn="25EA1CD3-97E8-F850-3EB4-973409AD2FB2"/>
+</associations>
+</Column>
+<Column name="PESSOA_PES_CPF" id="E4029687-6A2D-58F4-874A-C77C810F0D65">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>133BE4DA-0005-E61F-AD89-490304006D04</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AECE17B9-D30D-E49A-CC1A-4ABA8FC9D06D" referredColumn="E6E8A0CD-A545-FE14-B43B-818EB25EEB1F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="488E0271-5754-55B1-2623-E5ED844ADD53" name="HOSPEDAGEM_PK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>DC94AEA0-FB29-72AE-6EE6-9FDDCC7F8052</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D5202A1-7A88-EB73-E028-E81CE62EE259"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="838300E9-4ABC-F0A8-EA84-FBECE0E88D4C" name="HOSPEDAGEM_QUARTO_FK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>A54D5ACA-89C3-EF46-A7B9-AAC32333BF18</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17F4FB6C-6C82-39F3-2F61-D8BAA7155B20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9942FE0E-C6BE-5628-8EB3-AB356D489E2B" name="HOSPEDAGEM_RESERVAS_FK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>FFC9DB60-4EF0-BBC9-CA27-9962826550B4</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C48930DC-F2D4-A1A8-12C5-6522D8607A42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="673D3A82-88DB-7BDE-8EC4-50349C0E6201" name="HOSPEDAGEM_PESSOA_FK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>32672A39-A7C2-73F9-2D7F-8BCE6253AC0A</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4029687-6A2D-58F4-874A-C77C810F0D65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="NN_HOS_DATA_INI" directorySegmentName="seg_0" id="4FBE5499-5B7E-296B-7959-0A53679DF1EB">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 21:05:16 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<rule><![CDATA[HOS_DATA_INI NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="NN_HOS_DATA_FIM" directorySegmentName="seg_0" id="FB3AFEB2-7172-B986-B2BB-B4B01E1C44C8">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 21:05:16 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<rule><![CDATA[HOS_DATA_INI NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="NN_HOS_VALOR" directorySegmentName="seg_0" id="AB5B3364-F5EE-C3EE-3D8B-87FC340485E2">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 21:05:36 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<rule><![CDATA[HOS_VALOR NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="NN_HOS_PAG" directorySegmentName="seg_0" id="850E45D8-F552-FCB7-D7E8-E4B5DD7662E0">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 21:17:36 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<rule><![CDATA[HOS_PAG NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="NN_HOS_CRI" directorySegmentName="seg_0" id="1C2B288E-EE60-1390-81D8-945F2449B5F6">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 21:17:36 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<rule><![CDATA[HOS_CRI NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="NN_HOS_ADU" directorySegmentName="seg_0" id="6D341BF3-3385-8529-B25F-180352D662FE">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 21:17:36 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<rule><![CDATA[HOS_ADU NOT NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

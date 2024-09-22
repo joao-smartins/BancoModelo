@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A0DC9148-FBD2-A72E-9EFB-6607DFDF8333" containerWithKeyObject="74F9B69B-40B1-BEF0-E402-D279A7B6370F" localFKIndex="2287FADC-2DBD-E35F-2D85-ADF42FEA2D43" name="R_COMAN_PROD_COMANDA_FK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>910AA6CE-442B-B7B9-3AE2-003DE092F722</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<referredTableLongName>COMANDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>099A26BE-6238-9549-B9FF-743292888802</referredTableID>
+<keyObject>2D737B32-6350-7701-A773-7B4E19222B73</keyObject>
+<referredKeyID>2D737B32-6350-7701-A773-7B4E19222B73</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COMAN_COD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

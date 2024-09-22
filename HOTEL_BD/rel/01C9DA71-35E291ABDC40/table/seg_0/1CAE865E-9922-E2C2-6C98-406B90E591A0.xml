@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1CAE865E-9922-E2C2-6C98-406B90E591A0" name="DDD">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>BA2EFB13-5501-9E68-AD25-6941B1C911C9</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DDD_COD" id="490122D8-01A8-4749-78AF-A94F311E39D4">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>FD3165F8-4BBB-F51E-FF99-480896D622CC</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DDD_VALOR" id="FBEAE15E-8E3A-FF04-FE05-CAA416BDB500">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>9CDBBA79-723E-D3BA-17B0-F0882F76AD6B</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E5EDD147-40CF-9D1C-F5F7-FEDB43E1765E" name="DDD_PK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>A99D5F13-424F-073F-B6FD-2A7B3427AA69</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="490122D8-01A8-4749-78AF-A94F311E39D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="NN_DDD_VALOR" directorySegmentName="seg_0" id="F5797C80-F998-05D0-C9B8-0136807E407D">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 21:09:00 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<rule><![CDATA[DDD_VALOR NOT NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

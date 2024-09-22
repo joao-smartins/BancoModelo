@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="41287C99-9068-19FD-01FC-E90AC77BFA29" name="CATEGORIA">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>3A580E40-5F7A-22D4-6869-A600752C5B18</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CAT_COD" id="84652719-4893-0B02-8482-F91F21F4FA89">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>26BBAD11-E10E-52BC-BB7E-B25CCBEA05C4</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAT_NOME" id="D8DB5A13-6A1A-8741-0BE5-FC4568087CF8">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>EAC9195E-2142-2EFF-814B-D5751E61342A</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAT_VALOR" id="02D047FB-0966-050E-9092-C2D981D874F9">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>3709BBB7-0A40-129D-54D7-438AF7765997</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAT_CAPACIDADE" id="7EFC7A72-A9D8-FDF8-DE0E-0DA21482FEEF">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>AA0CEA7E-D36D-483E-E422-F9D12935C131</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAT_VALOR_ADC" id="531E0302-804C-80CA-531A-E2E29073B01E">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>A510A158-5A5D-CF99-AC05-62961FF1BEEC</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82303722-E5D0-A7EC-41D0-92B090738517" name="CATEGORIA_PK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>A61AADDE-54EB-8509-B64E-8EC412C058CB</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84652719-4893-0B02-8482-F91F21F4FA89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="NN_CAT_NOME" directorySegmentName="seg_0" id="0561EAD3-C192-1E17-88A7-A00031B1F85C">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 21:14:52 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<rule><![CDATA[CAT_NOME NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="NN_CAT_VALOR" directorySegmentName="seg_0" id="9BA18809-1817-566B-E50D-2742E0C29DA2">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 21:14:52 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<rule><![CDATA[CAT_VALOR NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="NN_CAT_CAPACIDADE" directorySegmentName="seg_0" id="3F29A9E4-CEE9-549A-ED4A-6258D82DD220">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 21:14:52 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<rule><![CDATA[CAT_CAPACIDADE NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="NN_CAT_VALOR_ADC" directorySegmentName="seg_0" id="7E66847A-0569-6866-214E-A59A9B849CAE">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 21:14:52 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<rule><![CDATA[CAT_VALOR_ADC NOT NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

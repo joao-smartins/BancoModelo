@@ -69,8 +69,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>15</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="HOS_PAG" id="DB02548E-2E96-B29B-4411-39A85AB03B22">
 <createdBy>jovi_</createdBy>

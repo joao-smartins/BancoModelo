@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="775CF79A-106B-F9E7-7C4F-984AFEED40E9" name="LIGAÇÕES">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>14D618A3-E8A6-52C4-793B-31E681A5C763</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<ordsAlias>ligacoes</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LIG_COD" id="E83A2DD6-6743-21B4-3382-4CC502461C42">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>EBBA0D14-55C6-669C-CF20-5A4E0442683C</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIG_VALOR" id="79460F29-6893-9147-B973-FA1E1ABD98BE">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>5C24DA70-1D80-BA1C-D259-914852028711</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIG_TEMP" id="3B4CE2D4-16F4-718A-852A-F54BD2CF4262">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>CC30EF13-4D0A-EAE4-D968-8C1212C45420</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIDADES_CID_COD" id="3449760D-B8FF-B660-1179-DA94FF55258F">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>5360D922-7167-573F-A283-D1D4AF9B7BCA</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09F20963-CF20-0AF3-D423-0A4271FA20CA" referredColumn="40278509-6908-493F-9D6D-70D3A0207336"/>
+</associations>
+</Column>
+<Column name="HOSPEDAGEM_HOS_COD" id="005EAB32-8772-9D43-0E3D-ADE877C9775D">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>690D50E1-6F4A-1D8F-793C-AAEDFBA19D57</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="597AB332-510B-47EF-2893-16ED8BA8784B" referredColumn="3D5202A1-7A88-EB73-E028-E81CE62EE259"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0423D74E-7333-4F07-59B7-E99A899CE34C" name="LIGAÇÕES_PK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>449B0355-7EEC-E02D-CD0D-D4CF9CE4D5EC</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E83A2DD6-6743-21B4-3382-4CC502461C42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5996175-50CF-6597-A3BF-41AF1B1B64D3" name="LIGAÇÕES_CIDADES_FK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>1FCFF778-9B00-BDEB-475B-95FB0F027C48</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3449760D-B8FF-B660-1179-DA94FF55258F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF45A860-DF9B-44A0-4596-3E4D4C4F334D" name="LIGAÇÕES_HOSPEDAGEM_FK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>88E62BB1-DB47-6505-FF05-A6DC71A3800B</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="005EAB32-8772-9D43-0E3D-ADE877C9775D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="NN_LIG_TEMP" directorySegmentName="seg_0" id="B5BB4386-20B9-1DC1-2BC9-6B0CE6066957">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 21:07:50 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<rule><![CDATA[LIG_TEMPO NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="NN_LIG__VALOR" directorySegmentName="seg_0" id="31D5C3F2-FFB0-FFC5-F73B-1B64983E1D3F">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 21:07:50 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<rule><![CDATA[LIG_VALOR NOT NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,10 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_23" directorySegmentName="seg_0" id="4E2D6B55-94E9-9BC4-DF56-C94083599EAD">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_CAT_RES" directorySegmentName="seg_0" id="4E2D6B55-94E9-9BC4-DF56-C94083599EAD">
 <createdBy>jovi_</createdBy>
 <createdTime>2024-09-14 22:19:25 UTC</createdTime>
 <ownerDesignName>HOTEL_BD</ownerDesignName>
 <engineerTo>
 <item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+<item key="01C9DA71-7536-8E3C-145F-35E291ABDC40" value="true"/>
 </engineerTo>
 <sourcePk>A61AADDE-54EB-8509-B64E-8EC412C058CB</sourcePk>
 <identifying>false</identifying>

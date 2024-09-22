@@ -5,6 +5,7 @@
 <ownerDesignName>HOTEL_BD</ownerDesignName>
 <engineerTo>
 <item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+<item key="01C9DA71-7536-8E3C-145F-35E291ABDC40" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,6 +22,7 @@
 <ownerDesignName>HOTEL_BD</ownerDesignName>
 <engineerTo>
 <item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+<item key="01C9DA71-7536-8E3C-145F-35E291ABDC40" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,13 +36,13 @@
 <ownerDesignName>HOTEL_BD</ownerDesignName>
 <engineerTo>
 <item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+<item key="01C9DA71-7536-8E3C-145F-35E291ABDC40" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PROD_NOME" id="FCB4DEE5-D53C-4F97-BB45-4136B1FFFB63">
 <createdBy>jovi_</createdBy>
@@ -48,6 +50,7 @@
 <ownerDesignName>HOTEL_BD</ownerDesignName>
 <engineerTo>
 <item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+<item key="01C9DA71-7536-8E3C-145F-35E291ABDC40" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -63,6 +66,7 @@
 <ownerDesignName>HOTEL_BD</ownerDesignName>
 <engineerTo>
 <item key="D1F4240B-58E5-84D7-EEAE-34666E2C289C" value="true"/>
+<item key="01C9DA71-7536-8E3C-145F-35E291ABDC40" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

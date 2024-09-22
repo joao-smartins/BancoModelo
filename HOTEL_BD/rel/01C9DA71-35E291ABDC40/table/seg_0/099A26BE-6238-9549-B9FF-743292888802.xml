@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="099A26BE-6238-9549-B9FF-743292888802" name="COMANDA">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>EDC96FA7-2FDE-D108-49E3-6A8D874BF0B3</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COMAN_COD" id="E022EF6E-0394-EBC3-2437-7F11D3A1455F">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>80697E57-42A2-67B1-7D4A-76E19E43AA85</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMAN_VALOR" id="1DAECDF3-9F13-0CB4-B6F9-F519F41D48BC">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>02A49DF0-B0FF-9E0C-E220-A2C374469015</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMAN_QTD_ITEM" id="1ADFAFD8-6EB3-7723-FF97-EF0B3C50DAAB">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>94F50F5E-B6A0-11C3-8285-7DCF59C53D8B</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOSPEDAGEM_HOS_COD" id="01985735-83B4-3643-811A-642B3E31F754">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>FCC47F01-A0C9-B3E6-71F0-F1A33AC57486</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53FE8CA9-2D33-FE71-0C7B-FE179AE5472B" referredColumn="3D5202A1-7A88-EB73-E028-E81CE62EE259"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D737B32-6350-7701-A773-7B4E19222B73" name="COMANDA_PK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>18EB579A-75F8-CF03-DF2A-5C2791E3981F</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E022EF6E-0394-EBC3-2437-7F11D3A1455F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AEF55D6D-54AB-38B3-D0D7-97FE2394AFDB" name="COMANDA_HOSPEDAGEM_FK">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 20:56:57 UTC</createdTime>
+<generatorID>9D3A4234-F81F-5938-9F22-37E82CA87F80</generatorID>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01985735-83B4-3643-811A-642B3E31F754"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="NN_COMAN_VALOR" directorySegmentName="seg_0" id="C1C6202D-77FC-C709-FEE1-521CB7185F7B">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 21:10:59 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<rule><![CDATA[COMAN_VALOR NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="NN_COMAN_QTD_ITEM" directorySegmentName="seg_0" id="D0A4B595-7CD2-1181-695F-C0A9E9E7284F">
+<createdBy>jovi_</createdBy>
+<createdTime>2024-09-22 21:11:30 UTC</createdTime>
+<ownerDesignName>HOTEL_BD</ownerDesignName>
+<rule><![CDATA[COMAN_QTD_ITEM NOT NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>
